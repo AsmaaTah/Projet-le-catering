@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Times New Roman";
+}
+
+/*header*/
+
+header {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    background-color: #F9F9F9;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h2 {
+    padding: 10px 20px;
+    font-size: 1em;
+    font-weight: 400;
+
+}
+
+.logo h2 a:hover {
+    background-color: #d3d3d3;
+    padding: 5px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #000000;
+    letter-spacing: 4px;
+}
+
+header .menu .menu-list {}
+
+header .menu .menu-list .menu-items {
+    display: inline-block;
+    padding: 0 20px;
+    font-size: 1.1em;
+}
+
+
+header .menu .menu-list .menu-items a {
+    text-decoration: none;
+    color: #000000;
+}
+
+header .menu .menu-list .menu-items a:hover {
+    background-color: #d3d3d3;
+    padding: 15px;
+
+}
+
+/* End header */
+
+/* Main */
+
+main {
+    margin-top: 50px;
+
+}
+
+.intro {
+    width: 100%;
+    height: 600px;
+    position: relative;
+
+}
+
+.intro .intro-img {
+    background-image: url(images/hamburger.jpg);
+    background-size: cover;
+    height: 600px;
+}
+
+
+.intro .intro-title {
+    position: absolute;
+    z-index: 1;
+    bottom: 20px;
+    left: 20px;
+    color: #808080;
+    letter-spacing: 5px;
+    font-size: 35px;
+    font-weight: 400;
+}
+
+#about {
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-between;
+    width: 1350px;
+
+}
+
+
+.about-img {
+    height: 700px;
+    width: 550px;
+}
+
+.about-img img {
+    width: 100%;
+}
+
+.about-text {
+    width: 600px;
+
+}
+
+.about-text h2 {
+    font-size: 2em;
+    font-weight: 400;
+    letter-spacing: 5px;
+    text-align: center;
+    padding: 30px;
+}
+
+.about-text h3 {
+    font-size: 1.1em;
+    font-weight: 500;
+    letter-spacing: 5px;
+    padding: 30px;
+    text-align: center;
+}
+
+.about-text-1 {
+    letter-spacing: 3px;
+    line-height: 1.6em;
+    text-align: left;
+
+}
+
+.about-text-1 span {
+    background-color: #d3d3d3;
+    padding: 2px;
+}
+
+
+.about-text-2 {
+    color: #808080;
+    letter-spacing: 3px;
+    line-height: 1.6em;
+    text-align: left;
+    padding-top: 20px;
+}
